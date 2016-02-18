@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0008190A89230444BC52A839F6590B84 /* LYTViewSize.h in Headers */ = {isa = PBXBuildFile; fileRef = C933F9FFF0CA8BD29020C21D0BC7E1B4 /* LYTViewSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		060939255ED4C8A532B436F9992C73E1 /* LYTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0198DC4A07321BF274C3664BD12DC6 /* LYTConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07D25A52BC8DA31EC86CF939A34A7E58 /* LYTStringValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 2153702CD0678B81703E186A14389F73 /* LYTStringValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07D94143EC48905C9D501504F98C10E2 /* LYTViewCatalogProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B1A1CA1D719C15C930146CBD13817E /* LYTViewCatalogProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08B02DFF937A7E9CF4194182E1574803 /* LayoutTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7152F2EBF63D63519F94E6211395D23D /* LayoutTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC947AF0D26E45C9855AEDA6C7BF4CD /* LYTAutolayoutFailureIntercepter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4038BCD2D645EBDD9A72648AA3378C53 /* LYTAutolayoutFailureIntercepter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F2688EC4C5BDF617C578C0FDA73294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A7E81E94D5275573AF19B08C7093C /* Foundation.framework */; };
+		128E5B893FF6C754121FF2693319ABEE /* LYTBoolValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE1EEAA9BC4A554DA9E743DEFC21FAA /* LYTBoolValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13AEAFDBAA02590381B45FC07D9F54EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A7E81E94D5275573AF19B08C7093C /* Foundation.framework */; };
+		15AD479B0EF81A0FAF321B906FC4E9BC /* UIView+LYTTestHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA9492DD9B711DD06AE67F1DD490832 /* UIView+LYTTestHelpers.m */; };
+		17FDE1E5B8E7B4F1F88826A8646238AB /* LYTIntegerValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5D9DC0CF74CDB405EEBFAFE51F1984 /* LYTIntegerValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F304E83DB702687289F2FC7771FD5CC /* LYTViewProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E8229ED1D45810ADAA8F4A4DCFA41F /* LYTViewProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		210B3D3B7B7C1CF2F5D6ADE518C594FC /* LYTFloatValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC4F7FA85DD7817ECD45062B4C57A81 /* LYTFloatValues.m */; };
+		318D5F65408AD027E8F21CEA685C29E0 /* LYTStringValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D899319A3272140BC9264701346794 /* LYTStringValues.m */; };
+		31F36A6FBE9B984B3FA57420C0B1E564 /* LYTCatalogCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 102DA735358C208A0CD8C8212A8FC594 /* LYTCatalogCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC780B432D1E2C956B696E9F98375C9 /* UIView+LYTHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = B30C5CB49B86BC07F3850A560457E5A1 /* UIView+LYTHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA57C976CD5AF5CAD5B32202048B189 /* LYTDataValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 83989D855BD03956AEC41141FA0A2ED9 /* LYTDataValues.m */; };
+		41A08CB0770BE5B11D27F58FE601DC59 /* UIView+LYTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2790E96B8CBDFA5B531FC35EB4D3757C /* UIView+LYTHelpers.m */; };
+		508C9EF36182FAEDACCAB892B4B0B4D5 /* LYTBoolValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FFA660F2B83315DB932F9FF475412 /* LYTBoolValues.m */; };
+		5B889EA2DDD86CAA3116B1EAEF2F1170 /* UIView+LYTTestHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = A599E85DA4F536334C9BFCEFA91A59B3 /* UIView+LYTTestHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		691A7D52D2C41F15CDF3573032FE136F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A7E81E94D5275573AF19B08C7093C /* Foundation.framework */; };
+		6DC4EC9355C8414EC9A37DDCE92A850D /* LayoutTestBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 940B30F91C3E692DC268B8A02DDDA697 /* LayoutTestBase-dummy.m */; };
+		77E611E8CEA6C291D90854068E144756 /* Pods-LayoutTestSampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76890E59F38C391DABCFFA82B897DBB9 /* Pods-LayoutTestSampleTests-dummy.m */; };
+		7924C8DF8D9B550E02D7FA31EB8F8619 /* LYTMutableCopier.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B09C926F8ABEFB9E44DE75ED6AB180 /* LYTMutableCopier.m */; };
+		79F6DFE9C502AD2AAE5E257C239CDACF /* LYTCatalogCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E37DCE722A89FE80EF59F290E8D6C1 /* LYTCatalogCollectionViewController.m */; };
+		7ED0C595D3F126A1A03D50DC348DEB21 /* LYTViewSize.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC365D309F50D967C80DC504FC99135 /* LYTViewSize.m */; };
+		81591CA5610A2AD34209204C9D20F7E0 /* UIView+LYTFrameComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F01ADA243350B0B9D834B0ED932EDCB /* UIView+LYTFrameComparison.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		866BDA73F36913AAFA3EC89C6B68F7FB /* LYTConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D94AE70576DE9D5AC775E18E7DE93E9 /* LYTConfig.m */; };
+		8B453AAE8A630E4C1618AB7B0138B8BE /* LYTAutolayoutFailureIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6C34C33B78B78AD96208FD288A914 /* LYTAutolayoutFailureIntercepter.m */; };
+		8EEDD00B1F8070A1D1B3F374A24757D6 /* LYTDeviceConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A0E00114DB77E54C4D96D97C3BC34 /* LYTDeviceConstants.m */; };
+		9247D2EB453B298E06B8C996D1018C57 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19621A55D90116B728D6C61C1B25EB8 /* XCTest.framework */; };
+		9AD64E76FDC68FE8449386299D09E105 /* LYTValuesIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = C978FFDD303BAF79AF8DA1D15E2E708C /* LYTValuesIterator.m */; };
+		9C9A5EB3524425A78AE1587B1EE1E22A /* UIView+LYTFrameComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 092BD77C0F1E4C5F4ED9F486B953DD49 /* UIView+LYTFrameComparison.m */; };
+		9CF6C9666DE408CF5EB40D2592DE8168 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622164B4107630D654F8782C72483711 /* UIKit.framework */; };
+		A33106C19260DB66D1006695942FE1A5 /* UIView+LYTViewSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8F41C28FCA509F9F72627877C9239D /* UIView+LYTViewSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6DA2DE80E29FED328FEE517E88B23DC /* LYTIntegerValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C4187093C250EC0D3F99665FFD5F6C /* LYTIntegerValues.m */; };
+		B9DCDC27E4796A1CC5179F1A851255C0 /* LYTValuesIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8F673442D962696C6011E71BC0297D /* LYTValuesIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDADDF98BBDE2E06BB906BD59FE36B8E /* LYTFloatValues.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2EF5A1FA368065DFDB0AF33B47F250 /* LYTFloatValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFCDFF1E3529D5BE55E93CF5987D84C6 /* UIView+LYTViewSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D611B0CB8C22482CC79FDA8C47D44EC6 /* UIView+LYTViewSize.m */; };
+		C72E0FFE1BCD32951BAEA5BDA8BE0BE1 /* LYTLayoutPropertyTester.h in Headers */ = {isa = PBXBuildFile; fileRef = F55E6D2D69123FD66C0B0E4FEBA71730 /* LYTLayoutPropertyTester.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8680D6D0EC36C0FBBFF8724C160B689 /* LayoutTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E078195010A07897838093DFAE20AD79 /* LayoutTest-dummy.m */; };
+		D50B77DC7BF5EE56AF732EB7E4F1B824 /* LYTLayoutPropertyTester.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCCC895B7975E52ED3E5E0EED80C103 /* LYTLayoutPropertyTester.m */; };
+		D8B82457C5158980D5302FC722B5AC55 /* LYTDataValues.h in Headers */ = {isa = PBXBuildFile; fileRef = F4322EF4A11080054DD343989F900442 /* LYTDataValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC63B2DD8E0A82A83EED3A776E8DD79 /* LYTMutableCopier.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E67AED7F2D9EC5B4C469E9BEFCE23F /* LYTMutableCopier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDBEA8982390E2653F1E4F4CC74A2733 /* LYTCatalogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F02617ADFC1ED1AD39CDE03368B291 /* LYTCatalogTableViewController.m */; };
+		E8841B63CC2E207B2F5AA5BED32C34E1 /* LYTLayoutTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F31C1D0F6BF18600BE374E8C11D7A8 /* LYTLayoutTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF286754938C24D49B56C4D90632CA77 /* LYTDeviceConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E00D3D66C2EC69A2440B7CE9CB838C7D /* LYTDeviceConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F017EAF9524922983BAE38F117FBD77B /* LYTLayoutTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF39C721EAFB5BBB349C1FC44350AB7 /* LYTLayoutTestCase.m */; };
+		FBBD0FA456E6C3D4E075BE196F8BADDB /* LYTCatalogTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFDE6DEC02DA3BCB76D59745E14308C /* LYTCatalogTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CEF9EEB29BA9EFA882C74D1F51E22F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FAD27E5517ABE21596C99C1B3E08244;
+			remoteInfo = LayoutTestBase;
+		};
+		950D459259AABF314A2CA26A74279D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D08AD9DD723E5AC238FE843CFDF6910;
+			remoteInfo = LayoutTest;
+		};
+		DF9100ACEE4A32D321FE856F27A0CF69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FAD27E5517ABE21596C99C1B3E08244;
+			remoteInfo = LayoutTestBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D899319A3272140BC9264701346794 /* LYTStringValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTStringValues.m; path = LayoutTestBase/Core/Generators/LYTStringValues.m; sourceTree = "<group>"; };
+		07F31C1D0F6BF18600BE374E8C11D7A8 /* LYTLayoutTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTLayoutTestCase.h; path = LayoutTest/TestCase/LYTLayoutTestCase.h; sourceTree = "<group>"; };
+		08F02617ADFC1ED1AD39CDE03368B291 /* LYTCatalogTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTCatalogTableViewController.m; path = LayoutTestBase/Catalog/LYTCatalogTableViewController.m; sourceTree = "<group>"; };
+		092BD77C0F1E4C5F4ED9F486B953DD49 /* UIView+LYTFrameComparison.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LYTFrameComparison.m"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTFrameComparison.m"; sourceTree = "<group>"; };
+		102DA735358C208A0CD8C8212A8FC594 /* LYTCatalogCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTCatalogCollectionViewController.h; path = LayoutTestBase/Catalog/LYTCatalogCollectionViewController.h; sourceTree = "<group>"; };
+		1AF7D6AF5AE098CB725B41CB60D46745 /* libLayoutTestBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLayoutTestBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0198DC4A07321BF274C3664BD12DC6 /* LYTConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTConfig.h; path = LayoutTestBase/Config/LYTConfig.h; sourceTree = "<group>"; };
+		1DC4F7FA85DD7817ECD45062B4C57A81 /* LYTFloatValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTFloatValues.m; path = LayoutTestBase/Core/Generators/LYTFloatValues.m; sourceTree = "<group>"; };
+		1F01ADA243350B0B9D834B0ED932EDCB /* UIView+LYTFrameComparison.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LYTFrameComparison.h"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTFrameComparison.h"; sourceTree = "<group>"; };
+		1FFDE6DEC02DA3BCB76D59745E14308C /* LYTCatalogTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTCatalogTableViewController.h; path = LayoutTestBase/Catalog/LYTCatalogTableViewController.h; sourceTree = "<group>"; };
+		2153702CD0678B81703E186A14389F73 /* LYTStringValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTStringValues.h; path = LayoutTestBase/Core/Generators/LYTStringValues.h; sourceTree = "<group>"; };
+		22E37DCE722A89FE80EF59F290E8D6C1 /* LYTCatalogCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTCatalogCollectionViewController.m; path = LayoutTestBase/Catalog/LYTCatalogCollectionViewController.m; sourceTree = "<group>"; };
+		2790E96B8CBDFA5B531FC35EB4D3757C /* UIView+LYTHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LYTHelpers.m"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTHelpers.m"; sourceTree = "<group>"; };
+		2E5856EDB5C904F0C838A2B602C84E0E /* LayoutTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LayoutTest.xcconfig; sourceTree = "<group>"; };
+		30C4187093C250EC0D3F99665FFD5F6C /* LYTIntegerValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTIntegerValues.m; path = LayoutTestBase/Core/Generators/LYTIntegerValues.m; sourceTree = "<group>"; };
+		35C6618DB2F6060AF7AD5D849213FCF7 /* LayoutTestBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutTestBase-prefix.pch"; sourceTree = "<group>"; };
+		36E67AED7F2D9EC5B4C469E9BEFCE23F /* LYTMutableCopier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTMutableCopier.h; path = LayoutTestBase/Core/Helpers/LYTMutableCopier.h; sourceTree = "<group>"; };
+		4038BCD2D645EBDD9A72648AA3378C53 /* LYTAutolayoutFailureIntercepter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTAutolayoutFailureIntercepter.h; path = LayoutTestBase/Autolayout/LYTAutolayoutFailureIntercepter.h; sourceTree = "<group>"; };
+		498638D6FCBA2E422F439CAFABE19B2B /* Pods-LayoutTestSampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LayoutTestSampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		4B5D9DC0CF74CDB405EEBFAFE51F1984 /* LYTIntegerValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTIntegerValues.h; path = LayoutTestBase/Core/Generators/LYTIntegerValues.h; sourceTree = "<group>"; };
+		4D8F673442D962696C6011E71BC0297D /* LYTValuesIterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTValuesIterator.h; path = LayoutTestBase/Core/Generators/Private/LYTValuesIterator.h; sourceTree = "<group>"; };
+		51B1A1CA1D719C15C930146CBD13817E /* LYTViewCatalogProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTViewCatalogProvider.h; path = LayoutTestBase/Catalog/LYTViewCatalogProvider.h; sourceTree = "<group>"; };
+		56E8229ED1D45810ADAA8F4A4DCFA41F /* LYTViewProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTViewProvider.h; path = LayoutTestBase/Core/LYTViewProvider.h; sourceTree = "<group>"; };
+		5A8F41C28FCA509F9F72627877C9239D /* UIView+LYTViewSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LYTViewSize.h"; path = "LayoutTestBase/Core/ViewSizing/UIView+LYTViewSize.h"; sourceTree = "<group>"; };
+		5BD121BB1C59CF43556896E5EC05F6B8 /* Pods-LayoutTestSampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LayoutTestSampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		622164B4107630D654F8782C72483711 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		64F23D1E63B9C655C30BAE9141DE3F6E /* Pods-LayoutTestSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayoutTestSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4A0E00114DB77E54C4D96D97C3BC34 /* LYTDeviceConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTDeviceConstants.m; path = LayoutTestBase/Core/ViewSizing/LYTDeviceConstants.m; sourceTree = "<group>"; };
+		6F4FFA660F2B83315DB932F9FF475412 /* LYTBoolValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTBoolValues.m; path = LayoutTestBase/Core/Generators/LYTBoolValues.m; sourceTree = "<group>"; };
+		6F8121D7A84C4117EA8D0287EEED6049 /* Pods-LayoutTestSampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LayoutTestSampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7152F2EBF63D63519F94E6211395D23D /* LayoutTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LayoutTest.h; path = LayoutTest/LayoutTest.h; sourceTree = "<group>"; };
+		72B09C926F8ABEFB9E44DE75ED6AB180 /* LYTMutableCopier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTMutableCopier.m; path = LayoutTestBase/Core/Helpers/LYTMutableCopier.m; sourceTree = "<group>"; };
+		76890E59F38C391DABCFFA82B897DBB9 /* Pods-LayoutTestSampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LayoutTestSampleTests-dummy.m"; sourceTree = "<group>"; };
+		7AE1EEAA9BC4A554DA9E743DEFC21FAA /* LYTBoolValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTBoolValues.h; path = LayoutTestBase/Core/Generators/LYTBoolValues.h; sourceTree = "<group>"; };
+		83989D855BD03956AEC41141FA0A2ED9 /* LYTDataValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTDataValues.m; path = LayoutTestBase/Core/Generators/LYTDataValues.m; sourceTree = "<group>"; };
+		89C1A669ADDEA8A577962A3AC4EFFCAF /* libPods-LayoutTestSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LayoutTestSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E6C34C33B78B78AD96208FD288A914 /* LYTAutolayoutFailureIntercepter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTAutolayoutFailureIntercepter.m; path = LayoutTestBase/Autolayout/LYTAutolayoutFailureIntercepter.m; sourceTree = "<group>"; };
+		940B30F91C3E692DC268B8A02DDDA697 /* LayoutTestBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LayoutTestBase-dummy.m"; sourceTree = "<group>"; };
+		99E59F78F94AC589943875D365D3E1C2 /* Pods-LayoutTestSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayoutTestSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D94AE70576DE9D5AC775E18E7DE93E9 /* LYTConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTConfig.m; path = LayoutTestBase/Config/LYTConfig.m; sourceTree = "<group>"; };
+		A09A7E81E94D5275573AF19B08C7093C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A599E85DA4F536334C9BFCEFA91A59B3 /* UIView+LYTTestHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LYTTestHelpers.h"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTTestHelpers.h"; sourceTree = "<group>"; };
+		AE2EF5A1FA368065DFDB0AF33B47F250 /* LYTFloatValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTFloatValues.h; path = LayoutTestBase/Core/Generators/LYTFloatValues.h; sourceTree = "<group>"; };
+		B30C5CB49B86BC07F3850A560457E5A1 /* UIView+LYTHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LYTHelpers.h"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTHelpers.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDF39C721EAFB5BBB349C1FC44350AB7 /* LYTLayoutTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTLayoutTestCase.m; path = LayoutTest/TestCase/LYTLayoutTestCase.m; sourceTree = "<group>"; };
+		BFCCC895B7975E52ED3E5E0EED80C103 /* LYTLayoutPropertyTester.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTLayoutPropertyTester.m; path = LayoutTestBase/Core/Testers/LYTLayoutPropertyTester.m; sourceTree = "<group>"; };
+		C88864ABA717DD63DBFEDC83FAAAB712 /* LayoutTestBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LayoutTestBase.xcconfig; sourceTree = "<group>"; };
+		C933F9FFF0CA8BD29020C21D0BC7E1B4 /* LYTViewSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTViewSize.h; path = LayoutTestBase/Core/ViewSizing/LYTViewSize.h; sourceTree = "<group>"; };
+		C978FFDD303BAF79AF8DA1D15E2E708C /* LYTValuesIterator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTValuesIterator.m; path = LayoutTestBase/Core/Generators/Private/LYTValuesIterator.m; sourceTree = "<group>"; };
+		D611B0CB8C22482CC79FDA8C47D44EC6 /* UIView+LYTViewSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LYTViewSize.m"; path = "LayoutTestBase/Core/ViewSizing/UIView+LYTViewSize.m"; sourceTree = "<group>"; };
+		DBD9B97704C743B99FBCBB59E8B78E33 /* LayoutTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutTest-prefix.pch"; sourceTree = "<group>"; };
+		E00D3D66C2EC69A2440B7CE9CB838C7D /* LYTDeviceConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDeviceConstants.h; path = LayoutTestBase/Core/ViewSizing/LYTDeviceConstants.h; sourceTree = "<group>"; };
+		E078195010A07897838093DFAE20AD79 /* LayoutTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LayoutTest-dummy.m"; sourceTree = "<group>"; };
+		EBC80A7D24B9C7CF71935F2F6EFD0694 /* libLayoutTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLayoutTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED242A12CF13263263E1125C73E820B5 /* Pods-LayoutTestSampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LayoutTestSampleTests-resources.sh"; sourceTree = "<group>"; };
+		EEC365D309F50D967C80DC504FC99135 /* LYTViewSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTViewSize.m; path = LayoutTestBase/Core/ViewSizing/LYTViewSize.m; sourceTree = "<group>"; };
+		EFA9492DD9B711DD06AE67F1DD490832 /* UIView+LYTTestHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LYTTestHelpers.m"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTTestHelpers.m"; sourceTree = "<group>"; };
+		F19621A55D90116B728D6C61C1B25EB8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F4322EF4A11080054DD343989F900442 /* LYTDataValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDataValues.h; path = LayoutTestBase/Core/Generators/LYTDataValues.h; sourceTree = "<group>"; };
+		F55E6D2D69123FD66C0B0E4FEBA71730 /* LYTLayoutPropertyTester.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTLayoutPropertyTester.h; path = LayoutTestBase/Core/Testers/LYTLayoutPropertyTester.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A6976EF907D48A991105FFF06B0EB9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691A7D52D2C41F15CDF3573032FE136F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDA4ADE06073D05FC81138ED14E4522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F2688EC4C5BDF617C578C0FDA73294 /* Foundation.framework in Frameworks */,
+				9CF6C9666DE408CF5EB40D2592DE8168 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3725E5E01979741F1D24C3B78CC0184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AEAFDBAA02590381B45FC07D9F54EB /* Foundation.framework in Frameworks */,
+				9247D2EB453B298E06B8C996D1018C57 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C1D4A60EA9FCD3EEAD80847CE9DCC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E5856EDB5C904F0C838A2B602C84E0E /* LayoutTest.xcconfig */,
+				E078195010A07897838093DFAE20AD79 /* LayoutTest-dummy.m */,
+				DBD9B97704C743B99FBCBB59E8B78E33 /* LayoutTest-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LayoutTest";
+			sourceTree = "<group>";
+		};
+		11F58DD612EEAE0E1B4E45924F6861B8 /* TestCase */ = {
+			isa = PBXGroup;
+			children = (
+				07F31C1D0F6BF18600BE374E8C11D7A8 /* LYTLayoutTestCase.h */,
+				BDF39C721EAFB5BBB349C1FC44350AB7 /* LYTLayoutTestCase.m */,
+			);
+			name = TestCase;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DECD63C15EA4A6A5E09172088586BA30 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DBCE74B14EDE5E4C80C3072D4B6AE9B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1B0198DC4A07321BF274C3664BD12DC6 /* LYTConfig.h */,
+				9D94AE70576DE9D5AC775E18E7DE93E9 /* LYTConfig.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		496774F5230D2C823315D9C35A8C6057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBC80A7D24B9C7CF71935F2F6EFD0694 /* libLayoutTest.a */,
+				1AF7D6AF5AE098CB725B41CB60D46745 /* libLayoutTestBase.a */,
+				89C1A669ADDEA8A577962A3AC4EFFCAF /* libPods-LayoutTestSampleTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		684AC0B528B6EE330572E40D14C23FF3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7AE1EEAA9BC4A554DA9E743DEFC21FAA /* LYTBoolValues.h */,
+				6F4FFA660F2B83315DB932F9FF475412 /* LYTBoolValues.m */,
+				F4322EF4A11080054DD343989F900442 /* LYTDataValues.h */,
+				83989D855BD03956AEC41141FA0A2ED9 /* LYTDataValues.m */,
+				E00D3D66C2EC69A2440B7CE9CB838C7D /* LYTDeviceConstants.h */,
+				6D4A0E00114DB77E54C4D96D97C3BC34 /* LYTDeviceConstants.m */,
+				AE2EF5A1FA368065DFDB0AF33B47F250 /* LYTFloatValues.h */,
+				1DC4F7FA85DD7817ECD45062B4C57A81 /* LYTFloatValues.m */,
+				4B5D9DC0CF74CDB405EEBFAFE51F1984 /* LYTIntegerValues.h */,
+				30C4187093C250EC0D3F99665FFD5F6C /* LYTIntegerValues.m */,
+				F55E6D2D69123FD66C0B0E4FEBA71730 /* LYTLayoutPropertyTester.h */,
+				BFCCC895B7975E52ED3E5E0EED80C103 /* LYTLayoutPropertyTester.m */,
+				36E67AED7F2D9EC5B4C469E9BEFCE23F /* LYTMutableCopier.h */,
+				72B09C926F8ABEFB9E44DE75ED6AB180 /* LYTMutableCopier.m */,
+				2153702CD0678B81703E186A14389F73 /* LYTStringValues.h */,
+				00D899319A3272140BC9264701346794 /* LYTStringValues.m */,
+				4D8F673442D962696C6011E71BC0297D /* LYTValuesIterator.h */,
+				C978FFDD303BAF79AF8DA1D15E2E708C /* LYTValuesIterator.m */,
+				56E8229ED1D45810ADAA8F4A4DCFA41F /* LYTViewProvider.h */,
+				C933F9FFF0CA8BD29020C21D0BC7E1B4 /* LYTViewSize.h */,
+				EEC365D309F50D967C80DC504FC99135 /* LYTViewSize.m */,
+				5A8F41C28FCA509F9F72627877C9239D /* UIView+LYTViewSize.h */,
+				D611B0CB8C22482CC79FDA8C47D44EC6 /* UIView+LYTViewSize.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		752934442C4EA3492928FE8616222B80 /* LayoutTest */ = {
+			isa = PBXGroup;
+			children = (
+				9F30BD5624C8A5265467725224CE80AD /* ModuleHeader */,
+				03C1D4A60EA9FCD3EEAD80847CE9DCC0 /* Support Files */,
+				11F58DD612EEAE0E1B4E45924F6861B8 /* TestCase */,
+			);
+			path = LayoutTest;
+			sourceTree = "<group>";
+		};
+		7533F189D2FBB5B2DEE6FBF0516ECE17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				752934442C4EA3492928FE8616222B80 /* LayoutTest */,
+				816E7243E538A583EFF02AE8C5549C85 /* LayoutTestBase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				7533F189D2FBB5B2DEE6FBF0516ECE17 /* Pods */,
+				496774F5230D2C823315D9C35A8C6057 /* Products */,
+				C414B610E43C7E7D832C44AF017BEA59 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		816E7243E538A583EFF02AE8C5549C85 /* LayoutTestBase */ = {
+			isa = PBXGroup;
+			children = (
+				BB27E1F54D7F6CC0CBE49EA4CB70B484 /* Autolayout */,
+				F55845EDA6E096F1A01BB97D6883F91F /* Catalog */,
+				1DBCE74B14EDE5E4C80C3072D4B6AE9B /* Config */,
+				684AC0B528B6EE330572E40D14C23FF3 /* Core */,
+				CB14F5065A111279EA0DDB291B70F52E /* Support Files */,
+				D8446A6B2A8BF2071FAF7F7A5925CCAE /* UIViewHelpers */,
+			);
+			path = LayoutTestBase;
+			sourceTree = "<group>";
+		};
+		822D3E712D0EEDD036A86A743195918C /* Pods-LayoutTestSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F8121D7A84C4117EA8D0287EEED6049 /* Pods-LayoutTestSampleTests-acknowledgements.markdown */,
+				5BD121BB1C59CF43556896E5EC05F6B8 /* Pods-LayoutTestSampleTests-acknowledgements.plist */,
+				76890E59F38C391DABCFFA82B897DBB9 /* Pods-LayoutTestSampleTests-dummy.m */,
+				498638D6FCBA2E422F439CAFABE19B2B /* Pods-LayoutTestSampleTests-frameworks.sh */,
+				ED242A12CF13263263E1125C73E820B5 /* Pods-LayoutTestSampleTests-resources.sh */,
+				64F23D1E63B9C655C30BAE9141DE3F6E /* Pods-LayoutTestSampleTests.debug.xcconfig */,
+				99E59F78F94AC589943875D365D3E1C2 /* Pods-LayoutTestSampleTests.release.xcconfig */,
+			);
+			name = "Pods-LayoutTestSampleTests";
+			path = "Target Support Files/Pods-LayoutTestSampleTests";
+			sourceTree = "<group>";
+		};
+		9F30BD5624C8A5265467725224CE80AD /* ModuleHeader */ = {
+			isa = PBXGroup;
+			children = (
+				7152F2EBF63D63519F94E6211395D23D /* LayoutTest.h */,
+			);
+			name = ModuleHeader;
+			sourceTree = "<group>";
+		};
+		BB27E1F54D7F6CC0CBE49EA4CB70B484 /* Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				4038BCD2D645EBDD9A72648AA3378C53 /* LYTAutolayoutFailureIntercepter.h */,
+				93E6C34C33B78B78AD96208FD288A914 /* LYTAutolayoutFailureIntercepter.m */,
+			);
+			name = Autolayout;
+			sourceTree = "<group>";
+		};
+		C414B610E43C7E7D832C44AF017BEA59 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				822D3E712D0EEDD036A86A743195918C /* Pods-LayoutTestSampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CB14F5065A111279EA0DDB291B70F52E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C88864ABA717DD63DBFEDC83FAAAB712 /* LayoutTestBase.xcconfig */,
+				940B30F91C3E692DC268B8A02DDDA697 /* LayoutTestBase-dummy.m */,
+				35C6618DB2F6060AF7AD5D849213FCF7 /* LayoutTestBase-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LayoutTestBase";
+			sourceTree = "<group>";
+		};
+		D8446A6B2A8BF2071FAF7F7A5925CCAE /* UIViewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				1F01ADA243350B0B9D834B0ED932EDCB /* UIView+LYTFrameComparison.h */,
+				092BD77C0F1E4C5F4ED9F486B953DD49 /* UIView+LYTFrameComparison.m */,
+				B30C5CB49B86BC07F3850A560457E5A1 /* UIView+LYTHelpers.h */,
+				2790E96B8CBDFA5B531FC35EB4D3757C /* UIView+LYTHelpers.m */,
+				A599E85DA4F536334C9BFCEFA91A59B3 /* UIView+LYTTestHelpers.h */,
+				EFA9492DD9B711DD06AE67F1DD490832 /* UIView+LYTTestHelpers.m */,
+			);
+			name = UIViewHelpers;
+			sourceTree = "<group>";
+		};
+		DECD63C15EA4A6A5E09172088586BA30 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A09A7E81E94D5275573AF19B08C7093C /* Foundation.framework */,
+				622164B4107630D654F8782C72483711 /* UIKit.framework */,
+				F19621A55D90116B728D6C61C1B25EB8 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F55845EDA6E096F1A01BB97D6883F91F /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				102DA735358C208A0CD8C8212A8FC594 /* LYTCatalogCollectionViewController.h */,
+				22E37DCE722A89FE80EF59F290E8D6C1 /* LYTCatalogCollectionViewController.m */,
+				1FFDE6DEC02DA3BCB76D59745E14308C /* LYTCatalogTableViewController.h */,
+				08F02617ADFC1ED1AD39CDE03368B291 /* LYTCatalogTableViewController.m */,
+				51B1A1CA1D719C15C930146CBD13817E /* LYTViewCatalogProvider.h */,
+			);
+			name = Catalog;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5BDA8664A0AC716CFBBD554EA9B884A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B02DFF937A7E9CF4194182E1574803 /* LayoutTest.h in Headers */,
+				E8841B63CC2E207B2F5AA5BED32C34E1 /* LYTLayoutTestCase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C395214C3A44EF789CA305E808EEEDFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC947AF0D26E45C9855AEDA6C7BF4CD /* LYTAutolayoutFailureIntercepter.h in Headers */,
+				128E5B893FF6C754121FF2693319ABEE /* LYTBoolValues.h in Headers */,
+				31F36A6FBE9B984B3FA57420C0B1E564 /* LYTCatalogCollectionViewController.h in Headers */,
+				FBBD0FA456E6C3D4E075BE196F8BADDB /* LYTCatalogTableViewController.h in Headers */,
+				060939255ED4C8A532B436F9992C73E1 /* LYTConfig.h in Headers */,
+				D8B82457C5158980D5302FC722B5AC55 /* LYTDataValues.h in Headers */,
+				EF286754938C24D49B56C4D90632CA77 /* LYTDeviceConstants.h in Headers */,
+				BDADDF98BBDE2E06BB906BD59FE36B8E /* LYTFloatValues.h in Headers */,
+				17FDE1E5B8E7B4F1F88826A8646238AB /* LYTIntegerValues.h in Headers */,
+				C72E0FFE1BCD32951BAEA5BDA8BE0BE1 /* LYTLayoutPropertyTester.h in Headers */,
+				DCC63B2DD8E0A82A83EED3A776E8DD79 /* LYTMutableCopier.h in Headers */,
+				07D25A52BC8DA31EC86CF939A34A7E58 /* LYTStringValues.h in Headers */,
+				B9DCDC27E4796A1CC5179F1A851255C0 /* LYTValuesIterator.h in Headers */,
+				07D94143EC48905C9D501504F98C10E2 /* LYTViewCatalogProvider.h in Headers */,
+				1F304E83DB702687289F2FC7771FD5CC /* LYTViewProvider.h in Headers */,
+				0008190A89230444BC52A839F6590B84 /* LYTViewSize.h in Headers */,
+				81591CA5610A2AD34209204C9D20F7E0 /* UIView+LYTFrameComparison.h in Headers */,
+				3AC780B432D1E2C956B696E9F98375C9 /* UIView+LYTHelpers.h in Headers */,
+				5B889EA2DDD86CAA3116B1EAEF2F1170 /* UIView+LYTTestHelpers.h in Headers */,
+				A33106C19260DB66D1006695942FE1A5 /* UIView+LYTViewSize.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FAD27E5517ABE21596C99C1B3E08244 /* LayoutTestBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75E98D5E22002F224DFA5615FDDB0AA /* Build configuration list for PBXNativeTarget "LayoutTestBase" */;
+			buildPhases = (
+				7DED006B66BABF6F7CD45B5A82E3E2EB /* Sources */,
+				BBDA4ADE06073D05FC81138ED14E4522 /* Frameworks */,
+				C395214C3A44EF789CA305E808EEEDFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LayoutTestBase;
+			productName = LayoutTestBase;
+			productReference = 1AF7D6AF5AE098CB725B41CB60D46745 /* libLayoutTestBase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4D08AD9DD723E5AC238FE843CFDF6910 /* LayoutTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CED53E5907EFD25A654EF498E1E2F4 /* Build configuration list for PBXNativeTarget "LayoutTest" */;
+			buildPhases = (
+				E25A16A295DC25172F92944135E4C28F /* Sources */,
+				D3725E5E01979741F1D24C3B78CC0184 /* Frameworks */,
+				5BDA8664A0AC716CFBBD554EA9B884A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B54A87FC63E7321160A8392062D781C /* PBXTargetDependency */,
+			);
+			name = LayoutTest;
+			productName = LayoutTest;
+			productReference = EBC80A7D24B9C7CF71935F2F6EFD0694 /* libLayoutTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E9EE73C53FF611840B3A96673C714F33 /* Pods-LayoutTestSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883190BE84D1395845734395EE810C1D /* Build configuration list for PBXNativeTarget "Pods-LayoutTestSampleTests" */;
+			buildPhases = (
+				452F1FB9D9D5FD746CB073E32695E557 /* Sources */,
+				4A6976EF907D48A991105FFF06B0EB9F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83919F609A3536A8247BD4696C64C6BE /* PBXTargetDependency */,
+				8F4C437069D26F111F69752FA11E16BF /* PBXTargetDependency */,
+			);
+			name = "Pods-LayoutTestSampleTests";
+			productName = "Pods-LayoutTestSampleTests";
+			productReference = 89C1A669ADDEA8A577962A3AC4EFFCAF /* libPods-LayoutTestSampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 496774F5230D2C823315D9C35A8C6057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D08AD9DD723E5AC238FE843CFDF6910 /* LayoutTest */,
+				3FAD27E5517ABE21596C99C1B3E08244 /* LayoutTestBase */,
+				E9EE73C53FF611840B3A96673C714F33 /* Pods-LayoutTestSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		452F1FB9D9D5FD746CB073E32695E557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E611E8CEA6C291D90854068E144756 /* Pods-LayoutTestSampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DED006B66BABF6F7CD45B5A82E3E2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC4EC9355C8414EC9A37DDCE92A850D /* LayoutTestBase-dummy.m in Sources */,
+				8B453AAE8A630E4C1618AB7B0138B8BE /* LYTAutolayoutFailureIntercepter.m in Sources */,
+				508C9EF36182FAEDACCAB892B4B0B4D5 /* LYTBoolValues.m in Sources */,
+				79F6DFE9C502AD2AAE5E257C239CDACF /* LYTCatalogCollectionViewController.m in Sources */,
+				DDBEA8982390E2653F1E4F4CC74A2733 /* LYTCatalogTableViewController.m in Sources */,
+				866BDA73F36913AAFA3EC89C6B68F7FB /* LYTConfig.m in Sources */,
+				3EA57C976CD5AF5CAD5B32202048B189 /* LYTDataValues.m in Sources */,
+				8EEDD00B1F8070A1D1B3F374A24757D6 /* LYTDeviceConstants.m in Sources */,
+				210B3D3B7B7C1CF2F5D6ADE518C594FC /* LYTFloatValues.m in Sources */,
+				A6DA2DE80E29FED328FEE517E88B23DC /* LYTIntegerValues.m in Sources */,
+				D50B77DC7BF5EE56AF732EB7E4F1B824 /* LYTLayoutPropertyTester.m in Sources */,
+				7924C8DF8D9B550E02D7FA31EB8F8619 /* LYTMutableCopier.m in Sources */,
+				318D5F65408AD027E8F21CEA685C29E0 /* LYTStringValues.m in Sources */,
+				9AD64E76FDC68FE8449386299D09E105 /* LYTValuesIterator.m in Sources */,
+				7ED0C595D3F126A1A03D50DC348DEB21 /* LYTViewSize.m in Sources */,
+				9C9A5EB3524425A78AE1587B1EE1E22A /* UIView+LYTFrameComparison.m in Sources */,
+				41A08CB0770BE5B11D27F58FE601DC59 /* UIView+LYTHelpers.m in Sources */,
+				15AD479B0EF81A0FAF321B906FC4E9BC /* UIView+LYTTestHelpers.m in Sources */,
+				BFCDFF1E3529D5BE55E93CF5987D84C6 /* UIView+LYTViewSize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25A16A295DC25172F92944135E4C28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8680D6D0EC36C0FBBFF8724C160B689 /* LayoutTest-dummy.m in Sources */,
+				F017EAF9524922983BAE38F117FBD77B /* LYTLayoutTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B54A87FC63E7321160A8392062D781C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LayoutTestBase;
+			target = 3FAD27E5517ABE21596C99C1B3E08244 /* LayoutTestBase */;
+			targetProxy = 3CEF9EEB29BA9EFA882C74D1F51E22F2 /* PBXContainerItemProxy */;
+		};
+		83919F609A3536A8247BD4696C64C6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LayoutTest;
+			target = 4D08AD9DD723E5AC238FE843CFDF6910 /* LayoutTest */;
+			targetProxy = 950D459259AABF314A2CA26A74279D64 /* PBXContainerItemProxy */;
+		};
+		8F4C437069D26F111F69752FA11E16BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LayoutTestBase;
+			target = 3FAD27E5517ABE21596C99C1B3E08244 /* LayoutTestBase */;
+			targetProxy = DF9100ACEE4A32D321FE856F27A0CF69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C33D36DE4B1FE419B2D57945B7D73BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E59F78F94AC589943875D365D3E1C2 /* Pods-LayoutTestSampleTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1011272B8BB94D7521338CD255125BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5856EDB5C904F0C838A2B602C84E0E /* LayoutTest.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LayoutTest/LayoutTest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		14C0BE541A8ECCD03C1763D0D2590C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88864ABA717DD63DBFEDC83FAAAB712 /* LayoutTestBase.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LayoutTestBase/LayoutTestBase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D047069A837F7CB9BE830934ACF462C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88864ABA717DD63DBFEDC83FAAAB712 /* LayoutTestBase.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LayoutTestBase/LayoutTestBase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A0BD4BE979BBABF2581B6BCA403B9CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5856EDB5C904F0C838A2B602C84E0E /* LayoutTest.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LayoutTest/LayoutTest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5332E9215D432B79638DAD24823108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F23D1E63B9C655C30BAE9141DE3F6E /* Pods-LayoutTestSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883190BE84D1395845734395EE810C1D /* Build configuration list for PBXNativeTarget "Pods-LayoutTestSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5332E9215D432B79638DAD24823108E /* Debug */,
+				0C33D36DE4B1FE419B2D57945B7D73BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6CED53E5907EFD25A654EF498E1E2F4 /* Build configuration list for PBXNativeTarget "LayoutTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BD4BE979BBABF2581B6BCA403B9CC9 /* Debug */,
+				1011272B8BB94D7521338CD255125BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75E98D5E22002F224DFA5615FDDB0AA /* Build configuration list for PBXNativeTarget "LayoutTestBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C0BE541A8ECCD03C1763D0D2590C8C /* Debug */,
+				4D047069A837F7CB9BE830934ACF462C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
