@@ -56,6 +56,8 @@
 		EF286754938C24D49B56C4D90632CA77 /* LYTDeviceConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E00D3D66C2EC69A2440B7CE9CB838C7D /* LYTDeviceConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F017EAF9524922983BAE38F117FBD77B /* LYTLayoutTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF39C721EAFB5BBB349C1FC44350AB7 /* LYTLayoutTestCase.m */; };
 		FBBD0FA456E6C3D4E075BE196F8BADDB /* LYTCatalogTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFDE6DEC02DA3BCB76D59745E14308C /* LYTCatalogTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDFD407D1C764A1A00FA9B4D /* module.modulemap in Copy Files */ = {isa = PBXBuildFile; fileRef = FDFD40761C7648A700FA9B4D /* module.modulemap */; };
+		FDFD407E1C764A1F00FA9B4D /* LayoutTestBase-Umbrella.h in Copy Files */ = {isa = PBXBuildFile; fileRef = FDFD40771C7648E000FA9B4D /* LayoutTestBase-Umbrella.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,21 @@
 			remoteInfo = LayoutTestBase;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDFD407C1C764A0B00FA9B4D /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include/LayoutTestBase;
+			dstSubfolderSpec = 16;
+			files = (
+				FDFD407E1C764A1F00FA9B4D /* LayoutTestBase-Umbrella.h in Copy Files */,
+				FDFD407D1C764A1A00FA9B4D /* module.modulemap in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00D899319A3272140BC9264701346794 /* LYTStringValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTStringValues.m; path = LayoutTestBase/Core/Generators/LYTStringValues.m; sourceTree = "<group>"; };
@@ -144,6 +161,8 @@
 		F19621A55D90116B728D6C61C1B25EB8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F4322EF4A11080054DD343989F900442 /* LYTDataValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDataValues.h; path = LayoutTestBase/Core/Generators/LYTDataValues.h; sourceTree = "<group>"; };
 		F55E6D2D69123FD66C0B0E4FEBA71730 /* LYTLayoutPropertyTester.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTLayoutPropertyTester.h; path = LayoutTestBase/Core/Testers/LYTLayoutPropertyTester.h; sourceTree = "<group>"; };
+		FDFD40761C7648A700FA9B4D /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		FDFD40771C7648E000FA9B4D /* LayoutTestBase-Umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LayoutTestBase-Umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +305,8 @@
 		816E7243E538A583EFF02AE8C5549C85 /* LayoutTestBase */ = {
 			isa = PBXGroup;
 			children = (
+				FDFD40761C7648A700FA9B4D /* module.modulemap */,
+				FDFD40771C7648E000FA9B4D /* LayoutTestBase-Umbrella.h */,
 				BB27E1F54D7F6CC0CBE49EA4CB70B484 /* Autolayout */,
 				F55845EDA6E096F1A01BB97D6883F91F /* Catalog */,
 				1DBCE74B14EDE5E4C80C3072D4B6AE9B /* Config */,
@@ -431,6 +452,7 @@
 				7DED006B66BABF6F7CD45B5A82E3E2EB /* Sources */,
 				BBDA4ADE06073D05FC81138ED14E4522 /* Frameworks */,
 				C395214C3A44EF789CA305E808EEEDFE /* Headers */,
+				FDFD407C1C764A0B00FA9B4D /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -615,6 +637,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LayoutTestBase/LayoutTestBase-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MODULEMAP_FILE = LayoutTestBase/module.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -633,6 +656,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LayoutTestBase/LayoutTestBase-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MODULEMAP_FILE = LayoutTestBase/module.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";

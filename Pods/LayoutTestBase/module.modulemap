@@ -1,0 +1,4 @@
+module LayoutTestBase {
+    umbrella header "LayoutTestBase-umbrella.h"
+    export *
+}
